@@ -21,7 +21,7 @@
     "@vue/compiler-sfc": "^3.2.37",
     "@xunserver/babel-config": "^0.0.1",
     "@xunserver/commitlint-config": "^0.0.2",
-    "@xunserver/eslint-config": "^0.0.4",
+    "@xunserver/eslint-config": "0.0.5",
     "@xunserver/postcss-config": "^0.0.1",
     "@xunserver/prettier-config": "0.0.2",
     "@xunserver/stylelint-config": "^0.0.3",

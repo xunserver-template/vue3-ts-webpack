@@ -1,5 +1,10 @@
 module.exports = {
-  presets: ['@xunserver/babel-config/vue', {
-    typescript: true
-  }]
+  presets: [
+    [
+      '@xunserver/babel-config/vue',
+      {
+        typescript: false,
+      },
+    ],
+  ],
 }
