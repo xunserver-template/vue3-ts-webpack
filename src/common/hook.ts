@@ -1,4 +1,4 @@
-import { ref } from "vue"
+import { ref } from 'vue'
 
 export const useLoading = (value = true) => {
   const loading = ref(value)
@@ -6,8 +6,6 @@ export const useLoading = (value = true) => {
     loading.value = value
     return value
   }
-
-  const b = "123"
 
   return {
     setLoading,

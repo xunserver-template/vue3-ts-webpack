@@ -12,6 +12,8 @@
     "build": "webpack --config webpack/index.js --mode production",
     "eslint": "eslint --config .eslintrc.js src --ext .js,.jsx,.vue,.ts,.tsx",
     "stylelint": "stylelint --config .stylelintrc.js src/**/*.vue src/**/*.css  src/**/*.scss  src/**/*.less",
+    "prettier": "prettier",
+    "stylelint-check": "stylelint-config-prettier-check",
     "babel": "babel"
   },
   "keywords": [],
