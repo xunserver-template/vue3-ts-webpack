@@ -7,6 +7,7 @@
 import { ref } from 'vue'
 const name = ref('app')
 </script>
+
 <style lang="scss" scoped>
 .test {
   color: red;
