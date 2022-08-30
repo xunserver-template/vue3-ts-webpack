@@ -1,8 +1,8 @@
 {
-	"vue init file": {
-		"scope": "vue",
-		"prefix": "vue3",
-		"body": [
+  "vue init file": {
+    "scope": "vue",
+    "prefix": "vue3",
+    "body": [
       "<template>",
       "  <div>",
       "",
@@ -14,7 +14,7 @@
       "<style lang='scss' scoped>",
       "",
       "</style>    "
-		],
-		"description": "init vue file"
-	}
+    ],
+    "description": "init vue file"
+  }
 }

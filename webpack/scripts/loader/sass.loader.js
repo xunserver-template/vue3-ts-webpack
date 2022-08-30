@@ -10,5 +10,5 @@ exports.getSassloader = () => {
         additionalData: `@import '@/style/base/_index';`, // 每个入口scss文件添加变量
       },
     },
-  ];
-};
+  ]
+}

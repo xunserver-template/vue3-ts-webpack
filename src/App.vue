@@ -10,6 +10,7 @@ const name = ref('app')
 
 <style lang="scss" scoped>
 .test {
+  display: none;
   color: red;
 }
 </style>

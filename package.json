@@ -1,6 +1,6 @@
 {
-  "name": "xuncool-template-vue3-ts-webpack",
-  "version": "1.0.1",
+  "name": "xunserver-template-vue3-ts-webpack",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,12 +20,13 @@
   "license": "ISC",
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.37",
-    "@xunserver/babel-config": "^0.0.1",
+    "@xunserver/babel-config": "0.0.1",
     "@xunserver/commitlint-config": "^0.0.2",
     "@xunserver/eslint-config": "0.0.5",
     "@xunserver/postcss-config": "^0.0.1",
     "@xunserver/prettier-config": "0.0.2",
-    "@xunserver/stylelint-config": "^0.0.3",
+    "@xunserver/stylelint-config": "0.0.3",
+    "@xunserver/vscode-config": "0.0.1",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",

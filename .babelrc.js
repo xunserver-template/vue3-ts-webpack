@@ -3,7 +3,7 @@ module.exports = {
     [
       '@xunserver/babel-config/vue',
       {
-        typescript: false,
+        typescript: true,
       },
     ],
   ],

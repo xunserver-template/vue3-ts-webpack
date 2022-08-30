@@ -1,4 +1,4 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 exports.getHtmlPlugin = (name, options = {}) => {
   const plugin = new HtmlWebpackPlugin({
@@ -11,7 +11,7 @@ exports.getHtmlPlugin = (name, options = {}) => {
     publicPath: '../',
 
     ...options,
-  });
+  })
 
-  return plugin;
-};
+  return plugin
+}

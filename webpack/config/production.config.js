@@ -1,7 +1,7 @@
-const { merge: webpackMerge } = require('webpack-merge');
-const { DIST_PATH } = require('../constant');
+const { merge: webpackMerge } = require('webpack-merge')
+const { DIST_PATH } = require('../constant')
 
-const base = require('./common');
+const base = require('./common')
 
 module.exports = webpackMerge(base, {
   mode: 'production',
@@ -11,4 +11,4 @@ module.exports = webpackMerge(base, {
     chunkFilename: 'chunk/[name].[contenthash:8].js',
     clean: true,
   },
-});
+})
